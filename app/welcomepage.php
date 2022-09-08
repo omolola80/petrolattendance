@@ -223,3 +223,37 @@
     //      }
 
     ?>
+
+<div class="container my-5">
+            <div class="mb-3">
+                <form action="" method="post">
+                <label for="" class="form-label">FIRSTNAME</label>
+                <input type="text" class="form-control" name="first_name" id="exampleFormControlInput1" placeholder="title post">
+            </div>
+
+            <div class="mb-3">
+            <label for="" class="form-label">LASTNAME</label>
+            <textarea class="form-control" name="last_name"  id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+           
+
+            <div class="mb-3">
+             <label for="" class="form-label">EMAIL</label>
+             <textarea class="form-control" name="email"  id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3">
+             <label for="" class="form-label">PHONE</label>
+             <textarea class="form-control" name="phone"  id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="mb-3">
+             <label for="" class="form-label">PASSWORD</label>
+             <input class="form-control" type="password" placeholder="Enter Password" name="password" rows="3" required>
+
+            </div>
+
+        <input type="submit" name="submitbtn"/>
+                </form>
+           
+</div>
